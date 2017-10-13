@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Manuale');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Manuale', serif;
+}
+
+#header, #footer {
+  padding: 2em 3em 3em;
+  color: #fff;
+}
+
+#header {
+  background-image: linear-gradient(45deg, #D585FF, #00FFEE);
+}
+
+#footer {
+  background-image: linear-gradient(45deg, #FCA5F1, #B5FFFF);
+  text-align: center;
+}
+
+h1 {
+  line-height: 1.2;
+}
+
+.button {
+  margin-top: 2em;
+  padding: 0.7em 1em;
+  border: 5px #fff solid;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.button a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.container-fluid {
+  padding: 1em 3em;
+}
+
+ul.social {
+  list-style-type: none;
+  padding: 0 0 0.5em;
+}
+
+ul.social > li {
+  display: inline-block;
+  font-size: 2em;
+  padding: 0em 0.5em;
+}
+
+ul.social li a {
+  color: inherit;
+}
+
+.credits {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+  padding: 1em 0;
+}
+
+.card p:last-child {
+  margin-bottom: 0;
+}
